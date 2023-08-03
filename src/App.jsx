@@ -4,54 +4,46 @@ import viteLogo from '/vite.svg' */
 import './App.css'
 
 function App() {
-/*   const [count, setCount] = useState(0) */
 
   return (
     <>
-      <section className="bg-[#f6f6f7] py-20 text-center">
-        <div className="mx-auto max-w-7xl px-6 sm:px-8 md:px-12">
-          <h2 className="text-2xl font-semibold md:text-3xl">First Example</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-     {/*  <!-- Grid 1 begins --> */}
-      <div className="mt-12 grid grid-auto-fit-sm gap-8">
-
-         <div className="grid1-item">
-            <span className="bg-yellow-200 ring-yellow-100">
-               <span>1</span>
-            </span>
-              <h3>Ideation</h3>
-                <p>Sequi amet? Aut laboriosam harum repellendus fugit!</p>
-         </div>
-
-         <div className="grid1-item">
-            <span className="bg-blue-200 ring-blue-100">
-               <span>2</span>
-            </span>
-              <h3>Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-         </div>
-
-         <div className="grid1-item">
-            <span className="bg-pink-200 ring-pink-100">
-               <span>3</span>
-            </span>
-              <h3>Testing</h3>
-                <p>Rerum reiciendis eius numquam placeat, blanditiis, hic</p>
-         </div>
-
-         <div className="grid1-item">
-            <span className="bg-green-200 ring-green-100">
-               <span>4</span>
-            </span>
-              <h3>Deployment</h3>
-                <p>Labore nam dolorum magni nostrum adipisci.</p>
-         </div>
-
-      </div>
-      {/* -- Grid 1 ends -- */}
+      <div className="container">
+        <div className="items">
+          <div className="item first">
+            <div className="image"><img src="../public/img/icon-sedans.svg" alt="icon"/></div>
+            <h1>
+              Sedans
+            </h1>
+            <p>
+              Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+              or on your next road trip.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <div className="item second">
+            <div className="image"><img src="../public/img/icon-suvs.svg" alt="icon"/></div>
+            <h1>
+              SUVS
+            </h1>
+            <p>
+              Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+              and off-road adventures.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <div className="item third">
+            <div className="image"><img src="../public/img/icon-luxury.svg" alt="icon"/></div>
+            <h1>
+              Luxury
+            </h1>
+            <p>
+              Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+              rental and arrive in style.
+            </p>
+            <button>Learn more</button>
+          </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }
