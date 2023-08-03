@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <div className="items">
           <div className="item first">
-            <div><img src="../public/icon-sedans.svg" alt="icon"/></div>
+            <div className="image"><img src="../public/icon-sedans.svg" alt="SVG Icon"/></div>
             <h1>
               Sedans
             </h1>
@@ -21,7 +21,7 @@ function App() {
             <button>Learn more</button>
           </div>
           <div className="item second">
-            <div className="image"><img src="../public/icon-suvs.svg" alt="icon"/></div>
+            <div className="image"><img src="../public/icon-suvs.svg" alt="SVG Icon"/></div>
             <h1>
               SUVS
             </h1>
@@ -32,7 +32,7 @@ function App() {
             <button>Learn more</button>
           </div>
           <div className="item third">
-            <div className="image"><img src="../public/icon-luxury.svg" alt="icon"/></div>
+            <div className="image"><img src="../public/icon-luxury.svg" alt="SVG Icon"/></div>
             <h1>
               Luxury
             </h1>
