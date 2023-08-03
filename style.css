@@ -7,15 +7,10 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
-/**
-### Neutral
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-****/
 :root{
-    --bright-orange: #e38826;
-    --dark-cyan: #006970;
-    --very-dark-cyan: #004241;
+    --bright-orange: #1fddb4;
+    --dark-cyan: #360070;
+    --very-dark-cyan: #420024;
 }
 .items{
     background-color:#f2f2f2;
@@ -24,18 +19,16 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
     flex-direction:row;
     align-items:center;
     justify-content:center;
-/*     padding-right: 8px;
-    padding-left: 8px; */
 }
 .item{
     background-color: var(--dark-cyan);
     min-height: 25rem;
-    max-width: 24rem;
+    max-width: 23rem;
     padding : 2.5rem;
     position: relative;
 }
 .item .image{
-    margin-bottom : 1.5rem;
+    margin-bottom : 3.5rem;
 }
 .item h1{
     color: #f2f2f2;
@@ -55,35 +48,35 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
     margin-bottom: 2rem;
     text-align: center;
     border: 2px solid #f2f2f2;
-    padding: 12px 24px;
+    padding: 12px 30px;
     border-radius: 30px;
     color :#006970;
     text-transform: capitalize;
 }
 .first{
-    background-color:#e38826;
+    background-color:#1fddb4;
     border-radius:30px 30px 30px 30px;
     margin: 8px;
 }
 .second{
-    background-color:#006970;
+    background-color:#360070;
     border-radius:30px 30px 30px 30px;
     margin: 8px;
 }
 .third{
-    background-color:#004241;
+    background-color:#420024;
     border-radius:30px 30px 30px 30px;
     margin: 8px;
 }
 
 .first button{
-    color:#e38826;
+    color:#1fddb4;
 }
 .second button {
-    color:#006970;
+    color:#360070;
 }
 .third button{
-    color:#004241;
+    color:#420024;
 }
 button:hover{
     background-color:transparent;
