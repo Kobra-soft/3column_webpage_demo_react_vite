@@ -5,9 +5,10 @@ function App() {
   return (
     <>
       <div className="container">
+      <img src="/vite.svg"/>
         <div className="items">
           <div className="item first">
-            <div className="image"><img src="/public/vite.svg"/></div>
+            {/* <div className="image"> */}<img src="/vite.svg"/><img src="/vite.svg"/>{/* </div> */}
             <h1>
               Sedans
             </h1>
