@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div className="container pt-36 items-start">
+      <div className="container pt-20 items-start">
         <title className="flex justify-between items-center ml-7 mr-6 pb-8">Available Vehicles</title>
         <div className="items">
           <div className="item first border-2 border-[#00000045]">

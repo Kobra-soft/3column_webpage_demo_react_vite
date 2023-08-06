@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
@@ -12,20 +11,12 @@
     font-weight: Medium;
 }
 
-/* :root{
-    --bright-orange: #1fddb4;
-    --dark-cyan: #360070;
-    --very-dark-cyan: #420024;
-} */
-
 title{
     /* background-color: #535bf2; */
     font-size: 45px;
     color: #391145;
     font-family: 'Rubik', sans-serif;;
 }
-
-/* Item height between the items */
 .items{
     background-color:#ffffff;
     min-height:50vh;
