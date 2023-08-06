@@ -12,9 +12,11 @@
     --dark-cyan: #360070;
     --very-dark-cyan: #420024;
 }
+
+/* Item height between the items */
 .items{
-    background-color:#f2f2f2;
-    min-height:100vh;
+    background-color:#ffffff;
+    min-height:70vh;
     display : flex;
     flex-direction:row;
     align-items:center;
@@ -24,7 +26,8 @@
     background-color: var(--dark-cyan);
     min-height: 25rem;
     max-width: 23rem;
-    padding : 2.5rem;
+    min-width: 18rem;
+    padding : 2.3rem;
     position: relative;
 }
 .item .image{
@@ -54,39 +57,39 @@
     text-transform: capitalize;
 }
 .first{
-    background-color:#1fddb4;
-    border-radius:30px 30px 30px 30px;
-    margin: 8px;
+    background-color:#2a2a2a;
+    border-radius:12px 12px 12px 12px;
+    margin: 1.6rem;
 }
 .second{
-    background-color:#360070;
-    border-radius:30px 30px 30px 30px;
-    margin: 8px;
+    background-color:#2a2a2a;
+    border-radius:12px 12px 12px 12px;
+    margin: 1.6rem;
 }
 .third{
-    background-color:#420024;
-    border-radius:30px 30px 30px 30px;
-    margin: 8px;
+    background-color:#2a2a2a;
+    border-radius:12px 12px 12px 12px;
+    margin: 1.6rem;
 }
 
 .first button{
-    color:#1fddb4;
+    color:#6b4f08;
 }
 .second button {
-    color:#360070;
+    color:#6b4f08;
 }
 .third button{
-    color:#420024;
+    color:#6b4f08;
 }
 button:hover{
     background-color:transparent;
-    color:#f2f2f2;
+    color:#dea20e;
 }
 
 @media (max-width: 950px)  {
     .items{
         flex-direction:column;
-        padding: 5rem 0;
+        padding: 0rem 0;
     }
     .item{
         min-width: 22rem;
