@@ -2,44 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: Medium;
 }
 
-:root{
+/* :root{
     --bright-orange: #1fddb4;
     --dark-cyan: #360070;
     --very-dark-cyan: #420024;
-}
+} */
 
 title{
     /* background-color: #535bf2; */
-    font-size: 35px;
+    font-size: 45px;
     color: #391145;
-    /* font-weight: 700; */
-    /* font-weight: bold; */
-    font-style: normal;
-    font-variant: normal;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-stretch: normal;
-    text-transform: none;
-    /* font-family: 'Big Shoulders Display', cursive; */
-    font: bolder;
-  }
+    font-family: 'Rubik', sans-serif;;
+}
 
 /* Item height between the items */
 .items{
     background-color:#ffffff;
-    min-height:70vh;
+    min-height:50vh;
     display : flex;
     flex-direction:row;
     align-items:center;
     justify-content:center;
+    padding-bottom: 20px;
 }
 .item{
     background-color: var(--dark-cyan);
@@ -48,22 +42,20 @@ title{
     min-width: 18rem;
     padding : 2.3rem;
     position: relative;
-/*     top: -20px; */
+    top: -24px;
 }
 .item .image{
     margin-bottom : 3.5rem;
 }
 .item h1{
     color: #f2f2f2;
-    font-size:2.3rem;
-    /* font-family: 'Big Shoulders Display', cursive; */
-    font-family: 'Schibsted', sans-serif;
-
+    font-size:2.4rem;
 }
 .item p{
     color : #ffffffbf;
     margin-top : 1.5rem;
     margin-bottom: 6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .item button{
