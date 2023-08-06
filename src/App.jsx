@@ -5,11 +5,10 @@ function App() {
   return (
     <>
       <div className="container">
-      <img src="/vite.svg"/>
         <div className="items">
-          <div className="item first">
-            {/* <div className="image"> */}<img src="/vite.svg"/><img src="/vite.svg"/>{/* </div> */}
-            <h1>
+          <div className="item first border-2 border-[#00000045]">
+            <img src="/vite.svg"/>
+            <h1 className='mt-20'>
               Sedans
             </h1>
             <p>
@@ -18,9 +17,9 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item second">
-            <div className="image"><img src="/public/vite.svg"/></div>
-            <h1>
+          <div className="item second border-2 border-[#00000045]">
+          <img src="/vite.svg"/>
+          <h1 className='mt-20'>
               SUVS
             </h1>
             <p>
@@ -29,16 +28,16 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item third">
-            <div className="image"><img src="/public/vite.svg"/></div>
-            <h1>
+          <div className="item third border-2 border-[#00000045]">
+          <img src="/vite.svg"/>
+          <h1 className='mt-20'>
               Luxury
             </h1>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
               rental and arrive in style.
             </p>
-            <button>Learn more</button>
+            <button className=''>Learn more</button>
           </div>
         </div>
       </div>
