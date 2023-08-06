@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-      <div className="container pt-36">
-
+      <div className="container pt-36 items-start">
+        <title className="flex justify-between items-center ml-6 mr-6">Trending Mockups</title>
         <div className="items">
           <div className="item first border-2 border-[#00000045]">
             <img src="/icon-sedans.svg"/>
