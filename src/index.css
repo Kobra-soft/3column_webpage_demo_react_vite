@@ -5,8 +5,7 @@
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
-
-
+  
   color-scheme: light dark;
   color: #ffffffde;
   background-color: #ffffff;
@@ -24,7 +23,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #ebebeb;
 }
 
 h1 {

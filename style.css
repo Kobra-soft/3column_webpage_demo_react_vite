@@ -15,10 +15,12 @@ title{
     /* background-color: #535bf2; */
     font-size: 45px;
     color: #391145;
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
 }
+
 .items{
-    background-color:#ffffff;
+    background-color:#ebebeb;
     min-height:50vh;
     display : flex;
     flex-direction:row;
@@ -26,22 +28,26 @@ title{
     justify-content:center;
     padding-bottom: 20px;
 }
+
 .item{
-    background-color: var(--dark-cyan);
     min-height: 25rem;
     max-width: 23rem;
     min-width: 18rem;
     padding : 2.3rem;
     position: relative;
     top: -24px;
+    box-shadow: #1a1a1a 0px 0px 10px 1px;
 }
+
 .item .image{
     margin-bottom : 3.5rem;
 }
+
 .item h1{
     color: #f2f2f2;
     font-size:2.4rem;
 }
+
 .item p{
     color : #ffffffbf;
     margin-top : 1.5rem;
@@ -52,15 +58,16 @@ title{
 .item button{
     /* position: absolute; */
     bottom: 0;
-    background : #f2f2f2;
+    background : transparent;
     margin-bottom: 2rem;
     text-align: center;
-    border: 2px solid #f2f2f2;
-    padding: 12px 30px;
+    border: 2px solid #dea20e;
+    padding: 12px 56px;
     border-radius: 30px;
-    color :#006970;
+    color :#dea20e;
     text-transform: capitalize;
 }
+
 .first{
     background-color:#2a2a2a;
     border-radius:12px 12px 12px 12px;
@@ -77,18 +84,30 @@ title{
     margin: 1.6rem;
 }
 
-.first button{
-    color:#6b4f08;
-}
-.second button {
-    color:#6b4f08;
-}
-.third button{
-    color:#6b4f08;
-}
-button:hover{
-    background-color:transparent;
+.item:hover{
     color:#dea20e;
+    border: 2px solid #ffffff;
+    cursor: help;
+    background-color: #1a1a1a;
+}
+
+.item:hover h1{
+    color:#ffb700;
+    cursor: text;
+}
+
+.item:hover p{
+    color:#ffffff;
+    cursor: text;
+}
+
+.item:hover button{
+    /* color:#dea20e; */
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    background-color: #ffb700;
+    color: #1a1a1a;
+    /* background-color: #ffb700; */
 }
 
 @media (max-width: 950px)  {

@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div className="container pt-20 items-start">
-        <title className="flex justify-between items-center ml-7 mr-6 pb-8">Available Vehicles</title>
+        <title className="flex justify-between ml-7 mr-6 pb-8">Available Vehicles</title>
         <div className="items">
-          <div className="item first border-2 border-[#00000045]">
+          <div className="item first border-2 border-[#000000]">
             <img src="/icon-sedans.svg"/>
             <h1 className='mt-20'>
               Sedans
@@ -18,7 +18,7 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item second border-2 border-[#00000045]">
+          <div className="item second border-2 border-[#000000]">
           <img src="/icon-suvs.svg"/>
           <h1 className='mt-20'>
               SUVS
@@ -29,14 +29,14 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item third border-2 border-[#00000045]">
+          <div className="item third border-2 border-[#000000]">
           <img src="/icon-luxury.svg"/>
           <h1 className='mt-20'>
               Luxury
             </h1>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-              rental and arrive in style.
+              rental & arrive in style.
             </p>
             <button>Learn more</button>
           </div>
@@ -46,7 +46,7 @@ function App() {
       <div className="container pt-0 items-start">
         <title className="flex justify-between items-center ml-7 mr-6 pb-8">Most Popular</title>
         <div className="items">
-          <div className="item first border-2 border-[#00000045]">
+          <div className="item first border-2 border-[#000000]">
             <img src="/icon-sedans.svg"/>
             <h1 className='mt-20'>
               Sedans
@@ -57,7 +57,7 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item second border-2 border-[#00000045]">
+          <div className="item second border-2 border-[#000000]">
           <img src="/icon-suvs.svg"/>
           <h1 className='mt-20'>
               SUVS
@@ -68,14 +68,14 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item third border-2 border-[#00000045]">
+          <div className="item third border-2 border-[#000000]">
           <img src="/icon-luxury.svg"/>
           <h1 className='mt-20'>
               Luxury
             </h1>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-              rental and arrive in style.
+              rental & arrive in style.
             </p>
             <button>Learn more</button>
           </div>
@@ -85,7 +85,7 @@ function App() {
       <div className="container pt-0 items-start">
         <title className="flex justify-between items-center ml-7 mr-6 pb-8">Premium Rentals</title>
         <div className="items">
-          <div className="item first border-2 border-[#00000045]">
+          <div className="item first border-2 border-[#000000]">
             <img src="/icon-sedans.svg"/>
             <h1 className='mt-20'>
               Sedans
@@ -96,7 +96,7 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item second border-2 border-[#00000045]">
+          <div className="item second border-2 border-[#000000]">
           <img src="/icon-suvs.svg"/>
           <h1 className='mt-20'>
               SUVS
@@ -107,14 +107,14 @@ function App() {
             </p>
             <button>Learn more</button>
           </div>
-          <div className="item third border-2 border-[#00000045]">
+          <div className="item third border-2 border-[#000000]">
           <img src="/icon-luxury.svg"/>
           <h1 className='mt-20'>
               Luxury
             </h1>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-              rental and arrive in style.
+              rental & arrive in style.
             </p>
             <button>Learn more</button>
           </div>
